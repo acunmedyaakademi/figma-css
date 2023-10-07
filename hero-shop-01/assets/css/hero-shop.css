@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* Bu kural, bir web geliştirme projesine başlarken temiz bir başlangıç yapmamızı sağlar  */
+    /* BU teknik, tarayıcılar arası tutarsızlıkları düzeltmek ve daha tahmin edilebilir bir tasarım oluşturmak için kullanılır. */
+
+    box-sizing: border-box; /*Bu kod sayesinde paddingleri, width ve heighttan çıkarmak zorunda kalmıyoruz  */
+}
+
+.container{
+    background-image: url('../img/Image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    margin: 0 auto;  /* Yatay olarak ortala */
+    
+}
+
+a{ text-decoration: none;
+color: #fff; 
+
+}
+
+.header{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 32px 0;
+    margin-left:165px;
+    margin-right:165px;
+}
+
+.nav{
+
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.icons{
+    display: flex;
+    gap:40px;
+}
+
+
+.hero{
+   
+    text-align: center;
+    color: #fff; /* Hex kodu 6 karakterdir ve # ile başlar.  */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 250px;
+    
+}
+
+.hero h1{
+    font-size: 80px;
+    line-height: 81px; /* 101.25% */
+    letter-spacing: -0.9px;
+    margin-bottom: 24px;
+}
+
+.hero h3{
+    font-size: 30px;
+    line-height: 37px; /* 123.333% */
+    letter-spacing: -0.35px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding: 16px 40px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    border-radius: 32px;
+    background-color: #094BAC;
+    color: #fff;
+    text-decoration: none;  /*Buttonun altındaki çizgiyi yok etmek için */
+    display: inline-block;
+}
+
+/*  */
